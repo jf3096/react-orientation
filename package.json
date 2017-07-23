@@ -1,0 +1,26 @@
+{
+  "name": "vertical-only",
+  "version": "0.1.0",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-component": "babel -d lib/ src/"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "chai": "^4.1.0",
+    "enzyme": "^2.9.1",
+    "mocha": "^3.4.2",
+    "react-scripts": "^1.0.10"
+  }
+}
